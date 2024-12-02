@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #ffffff;
+  height:100%;
+  padding:0px;
+  margin:0px;
+}
+
+nav {
+  display:flex;
+  position:absolute;
+  justify-content: center;
+  border-style:none;
+  background-color: #000000;
+  border-radius:10px;
+  padding:3px;
+  width:1200px;
+  margin-bottom:42%;
+}
+
+li {
+  display:inline;
+  font-family: "Inter";
+  color:black;
+  margin: 0 15px;
+  font-size: 14px;
+  
+}
+
+nav ul {
+  display:flex;
+  justify-content: center;
+  padding:0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#homepage {
+  position:relative;
+  margin:0.5rem;
+  box-sizing: border-box;
+  padding-top:1rem;
+  padding-bottom:3rem;
+  box-sizing: inherit;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height:90vh;
+  background-color: #ffffff;
+  border-radius:15px;
+}
+
+#header {
+  font-family: "Inter Tight";
+  font-size: 2rem;
+  text-align: center;
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:0px;
+  color: #000000;
+}
+
+#title p {
+  font-size:1.2rem;
+  font-family: "Inter Tight";
+  max-width:1100px;
+  margin-top:1rem;
+  margin:0px;
+  color:#000000;
+
+}
+
+#introduction {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+#intro-bio, #intro-2, #intro-3 {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  align-items: center;
+  color:#000000;
+}
+
+#intro-2, #intro-3 {
+  margin-top:70px;
+}
+
+#intro-3-header {
+  font-family: "Inter";
+  font-size:1.8rem;
+  max-width:450px;
+  text-align: center;
+  justify-content: center;
+}
+
+#the-result .badge p {
+  margin-top:-30px;
+}
+
+.badge p {
+  grid-row:1;
+  font-family:"Inter";
+  font-weight:600;
+  border-radius:35px;
+  color:#f8f9fa;
+  font-weight:300;
+	border:1px solid #495057;
+  box-sizing: border-box;
+  display:inline-block;
+  padding:0px;
+  font-size:14px;
+  position:relative;
+  top:42px;
+	background:linear-gradient(to bottom, #212529 5%, #6c757d 100%);
+	background-color:#212529;
+  padding:5px 10px;
+  
+  
+}
+
+#intro-bio-header, #intro-2-header {
+  font-family: "Inter";
+  font-size:1.8rem;
+  max-width:450px;
+  background: #ffffff;
+  text-align: center;
+  justify-content: center;
+  margin:0 px;
+
+  
+
+}
+
+#intro-bio-text, #intro-2-text {
+  font-family:"Inter";
+  font-size:18px;
+  max-width:750px;
+  margin-top: -30px;
+
+}
+
+#button p {
+  border-radius:5px;
+  background-color: #a0a0a0;
+  border-width:1px;
+  border-style:solid;
+  color:#ffffff;
+  padding:1px 2px;
+  font-family: "Inter";
+  margin-top:2px;
+
+  
+}
+
+#text-content p {
+  font-family: "Inter";
+  border-radius:5px;
+  padding:1px 1px;
+  margin-top:0px;
+  font-weight:700;
+}
+
+#the-result {
+  background-color: #6c757d;
+}
