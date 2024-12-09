@@ -29,7 +29,6 @@ nav {
   padding:3px;
   position:fixed;
   top:0px;
-
 }
 
 li {
@@ -49,7 +48,6 @@ nav ul {
 
 nav li:hover {
   background-color: #808080;
-
 }
 
 header {
@@ -314,14 +312,13 @@ margin:auto;
 
 #part-one-footer {
   grid-area: 4 / 1 / 5 / 3;
-  
 }
-
 
 #part-one-footer p {
   text-align: center;
   margin-top:-80px
 }
+
 #footer-image {
   height:500px;
   background-color: #808080;
@@ -345,7 +342,6 @@ footer {
   background-color: white;
   height:40px;
   width:100%;
-
 }
 
 #story-header {
